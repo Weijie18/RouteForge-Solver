@@ -1,7 +1,29 @@
 # MT_RouteForge-Solver
-1. autosolver_portable.zip 是Agent材料的压缩包
-2. autosolver_portable 文件夹，包含autosolver_portable.zip解压之后的所有文件
-   <br>3.1 autosolver_workbench 文件夹包含Agent的所有python代码
-   <br>3.2 cases 文件夹包含测试算例
-   <br>3.3 clean_solver.py 是目前为止生成的最好的算法代码
-   <br>3.4 PORTABLE_README.md 是autosolver_portable文件夹中Agent的说明文件
+
+## Overview
+
+The `autosolver_portable` directory contains all files related to the MT_RouteForge-Solver project, including the Agent's Python source code, test instances, solver implementations for two order dispatching mechanisms, and documentation.
+
+## Directory Structure
+
+```text
+autosolver_portable/
+├── autosolver_workbench/   # Python source code for the Agent
+├── required_cases/         # Test instances
+├── clean_solver.py         # Solver for the order-grabbing mechanism
+├── clean_solver_obj2.py    # Solver for the sequential offer mechanism
+└── PORTABLE_README.md      # Agent documentation
+```
+
+## File and Directory Descriptions
+
+| File or Directory | Description |
+| --- | --- |
+| `autosolver_portable/` | Contains all files associated with the project. |
+| `autosolver_workbench/` | Contains all Python source code for the Agent. |
+| `required_cases/` | Contains the test instances used for evaluation. |
+| `clean_solver.py` | Implements the solver for the **order-grabbing mechanism**. |
+| `clean_solver_obj2.py` | Implements the solver for the **sequential offer mechanism**. |
+| `PORTABLE_README.md` | Provides documentation for the Agent and the contents of the `autosolver_portable` directory. |
+
+For more information about the Agent, refer to `autosolver_portable/PORTABLE_README.md`.
